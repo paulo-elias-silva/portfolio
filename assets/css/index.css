@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('./menu.css'); /*Seprando o site para facilitar a manutenção*/
+@import url('./botoes.css');
+@import url('./sobre_mim.css');
+@import url('./projetos.css');
+@import url('./contatos.css');
+:root{
+    --fonte-texto: "Roboto";
+    --background-gradiente: linear-gradient(#3D3D3D, #272727);
+    --background-gradiente2: linear-gradient(#1A1A1A, #0A0A0A);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+    background: var(--background-gradiente2);
+}
+main {
+  max-width: 1100px; 
+  margin: 0 auto;  /*Centralizando conteúdo*/  
+  padding: 0;   
+}
+
+#sobre_mim, #projetos, #contatos{
+    background: var(--background-gradiente);
+}

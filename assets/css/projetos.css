@@ -1,0 +1,11 @@
+#projetos{
+    font-family: var(--fonte-texto);
+    padding: 20px;
+}
+.projetos__title{
+    font-weight: 500;
+    font-size: larger;
+    padding: 40px;
+    text-align: center;
+    font-size: 35px;
+}

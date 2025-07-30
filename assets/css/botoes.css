@@ -1,0 +1,6 @@
+.botoes{
+    background: var(--background-gradiente2);
+    font-family: var(--fonte-texto);
+    letter-spacing: 0.9px;
+}
+

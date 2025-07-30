@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--Fontes-->
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/htmx/htmx-original.svg"><!--Favicon-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"><!--BootStrap-->
+    <link rel="stylesheet" href="/assets/css/index.css">
+  </head>
+
+  <body>
+    <header>
+        <section class="menu">
+            <div class="menu__img_perfil_div">
+                <img  class="menu__img_perfil_div" id="menu__img_perfil" alt="foto_perfil" src="./assets/img/perfil_azul.png">
+            </div>
+            <div class="menu__texto">
+                <h1>Prazer, meu nome é<br><span class="menu__texto2">Paulo Elias</span><span class="menu__texto3"> <br>Estudante em Front-End</span></h1>
+            </div>
+            <ul class="menu__icon">
+                <li>
+                    <img class="menu__icon_img menu__icon_html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                </li>
+                <li>
+                    <img class="menu__icon_img menu__icon_css" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                </li>
+                <li>
+                    <img class="menu__icon_img menu__icon_js" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"">
+                </li>
+                <li>                    
+                    <img class="menu__icon_img menu__icon_figma" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
+                </li>                                        <li>                       
+                    <img  class="menu__icon_img menu__icon_boot" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
+                </li>
+            </ul>          
+        </section>
+    </header>
+    <main>
+        <section class="content botoes d-flex justify-content-center">
+            <div class="btn-group botoes_grupo" role="group" aria-label="Navegação Principal">
+                <a href="#sobre_mim" class="btn btn-primary">Sobre mim</a>
+                <a href="#projetos" class="btn btn-primary">Projetos</a>
+                <a href="#contato" class="btn btn-primary">Contato</a>
+            </div>
+        </section>
+        <section class="content" id="sobre_mim">
+            <p class="text-center sobre_mim_texto">
+                Com o objetivo de me tornar um <span class="p1">Programador Full Stack</span>, atualmente dedico meus estudos ao <span class="p1">desenvolvimento Web</span>, iniciando pelo Front-End. Minha jornada na programação iniciou no ensino médio, onde tive contato com Portugol e C# através de um curso técnico.
+                Embora o serviço militar obrigatório tenha interrompido a conclusão desse curso, essa fase me ensinou valores morais fundamentais como responsabilidade, disciplina e respeito à hierarquia. Como militar da Força Aérea Brasileira, fui convidado a auxiliar na seção de informática da minha unidade, o que me permitiu focar novamente na área e reacendeu meu interesse em codificar. Desde então, sigo em <span class="p1">constante estudo</span>, buscando me profissionalizar e retornar definitivamente à área de tecnologia.
+            </p>
+        </section> 
+        <br>
+        <section class="content" id="projetos">
+            <div class="container projetos__div">
+                <h2 class="projetos__title">Projetos</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card" style="width: 100%;">
+                            <img src="assets/img/Figma chamada.png" class="card-img-top" alt="Imagem do Projeto Figma 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Ferramenta administrativa da OM</h5>
+                                <p class="card-text">O projeto está em desenvolvimento.</p>
+                                <a href="https://www.figma.com/proto/8ucSTaBI47WSq8eQ79TIWM/Chamada-DTCEA-GA?node-id=105-26&p=f&t=sjC21Cp6Nks5XCqq-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A24&starting-point-node-id=105%3A26" class="btn btn-primary">Ver Protótipo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 100%;">
+                            <img src="assets/img/salao2.png" class="card-img-top" alt="Modelo Salão">
+                            <div class="card-body">
+                                <h5 class="card-title">Site modelo de Salão</h5>
+                                <p class="card-text">Praticando HTML e CSS em um projeto pessoal.
+                                </p>
+                                <a href="https://paulo-elias-silva.github.io/site-modelo-salao/" class="btn btn-primary">Ver o site</a>
+                                <a href="https://github.com/paulo-elias-silva/site-modelo-salao" class="ms-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Link para o GitHub" style="width: 30px; height: auto;">
+                                </a>                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 100%;">
+                            <img src="assets/img/starbuks.png" class="card-img-top" alt="Imagem do Projeto Figma 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Site clone Starbucks</h5>
+                                <p class="card-text">Estou criando o protótipo para iniciar a codificação deste projeto.</p>
+                                <a href="https://github.com/paulo-elias-silva/site-modelo-salao" class="btn btn-primary">Ver o site</a>
+                                <a href="https://github.com/paulo-elias-silva/Projeto-Starbuks?tab=readme-ov-file" class="ms-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Link para o GitHub" style="width: 30px; height: auto;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 100%;">
+                            <img src="assets/img/listadecompras.png" class="card-img-top" alt="Imagem do Projeto Figma 4">
+                            <div class="card-body">
+                                <h5 class="card-title">Tarefas diárias da OM</h5>
+                                <p class="card-text">O projeto está em desenvolvimento, nesse projeto esto treinando JS.</p>
+                                <a href="https://www.figma.com/design/Ot3h1tkoIWsQv11BN7UMAl/Projeto-Lista-de-compras?node-id=0-1&m=dev" class="btn btn-primary">Ver Protótipo</a>
+                                <a href="https://github.com/paulo-elias-silva/Projeto-Starbuks?tab=readme-ov-file" class="ms-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Link para o GitHub" style="width: 30px; height: auto;">
+                                </a>                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><br>
+        
+       <section class="content" id="contatos">
+            <h2 class="footer__title">Contato</h2>
+            <ul class="footer__lista">
+                <li class="footer__img">
+                    <a href="https://github.com/paulo-elias-silva">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                    </a>    
+                </li>
+                <li class="footer__img">
+                    <a href="mailto:paulosilva.mrx@gmail.com">
+                        <img src="https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000" />
+                    </a>    
+                </li>
+                <li class="footer__img">
+                    <a href="https://www.linkedin.com/in/paulo-elias-ads/">
+                        <img src=" https://img.icons8.com/?size=100&id=13930&format=png&color=000000" />
+                    </a>    
+                </li>
+                <li class="footer__img">
+                    <a href="https://contate.me/5561995526010">
+                        <img src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" />
+                    </a>    
+                </li>
+                <li class="footer__img">
+                    <a href="https://drive.google.com/file/d/1d19yfxFxAcn7SZ1FZZIub_JYD6wShoP_/view?usp=sharing">
+                        <img src="https://img.icons8.com/?size=100&id=WNAf4uBMcU2g&format=png&color=000000" />
+                    <p>Curriculo</p></a>    
+                </li>                
+            </ul>
+       </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script><!--BootStrap JS-->
+  </body>
+</html>
+

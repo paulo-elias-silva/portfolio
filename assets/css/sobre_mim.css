@@ -1,0 +1,12 @@
+
+.sobre_mim_texto{
+    padding: 80px;
+    font-family: var(--fonte-texto);
+    letter-spacing: 0.9px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+}
+.p1{
+     color: #f86713;
+     font-weight: 300;
+}
